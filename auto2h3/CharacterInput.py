@@ -16,7 +16,7 @@ def AgecalYearStatic (N, A, C):
     #Subtracts 100 by age, then adds the result to the current year using if and for loop statement
     if Age < 100:
       MaxYear = 100 - Age
-      for x in range (MaxYear):
+      for _ in range (MaxYear):
          Age += 1
          CurrenntYear += 1
          print (Age)
@@ -57,7 +57,7 @@ def AgecalYearAuto (N, A, C):
     #Subtracts 100 by age, then adds the result to the current year using if and for loop statement
     if Age < 100:
       MaxYear = 100 - Age
-      for x in range (MaxYear):
+      for _ in range (MaxYear):
          Age += 1
          CurrenntYear += 1
          print (Age)
