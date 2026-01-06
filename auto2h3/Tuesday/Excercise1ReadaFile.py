@@ -1,4 +1,7 @@
-import Tuesday
+from pathlib import Path
 
 
-text = Tuesday.
+#using Path, to locate the currect parent directory
+BasePath = Path(__file__).parent
+
+sampleLoc = BasePath
