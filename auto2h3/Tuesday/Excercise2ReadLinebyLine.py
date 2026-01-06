@@ -8,10 +8,20 @@ BasePath = Path(__file__).parent
 sampleLoc = BasePath / 'sample.txt'
 
 #open the file using open()
-File = sampleLoc.open()
+Sample = sampleLoc.open()
 
 
-#Reading File using read()
-print(File.read())
+def Filereader (F):
+    File = F
+
+    In = File.readlines()
+
+    for x in range(len(In)):
+        print (In[x])
+
+    
+
+
+Filereader(Sample)
 
 
