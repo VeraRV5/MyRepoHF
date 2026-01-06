@@ -1,0 +1,4 @@
+import Tuesday
+
+
+text = Tuesday.
