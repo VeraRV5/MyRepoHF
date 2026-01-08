@@ -15,7 +15,7 @@ def Filereader (F):
     #take File from parameter
     File = F
     
-    #Use readlines, to append the txt line by line to a list
+    #Use readlines, to append the txt line by line to a list, use readlines to make it into a list
     In = File.readlines()
 
     #Use a for loop to reiterate from the In List and print line by line
