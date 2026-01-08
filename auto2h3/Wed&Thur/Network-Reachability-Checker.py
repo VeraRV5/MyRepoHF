@@ -5,10 +5,9 @@ import socket
 def ServerChecker (Host, Port):
 #Make a simple socket, that handle IPV4 with .AF_INET, and use connection TCp with SOCK_STREAM
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    GoogleIP = socket.gethostbyname("gooogle.com")
     H = Host
     P = Port
-
+    
 #Make a try and catch, try to connect to server, with timeout, and try to send a binary comment, 
     try:
       s.settimeout(5)
@@ -36,3 +35,6 @@ H = input("Write Hostname or IP: ")
 P = int(input("Write which port to connect to: "))
 ServerChecker(H, P)
 
+
+# Translate Hostname to IP
+# socket.gethostbyaddr()
